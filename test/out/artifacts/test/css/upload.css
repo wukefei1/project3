@@ -1,0 +1,160 @@
+filter {
+    position: relative;
+    width: 100%;
+    left: 60px;
+    margin: 20px;
+}
+
+filter ul {
+    margin: 0px;
+    width: calc(100% - 40px);
+    position: relative;
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid none solid;
+    border-width: 1px;
+    height: 20px;
+    background-color: white;
+}
+
+filter ul div {
+    position: relative;
+    left: calc(50% - 285px);
+    width: 0px;
+}
+
+footer {
+    font-family: Verdana;
+    position: relative;
+    display: inline;
+    bottom: 00px;
+    left: 80px;
+}
+
+#hint {
+    position: relative;
+    max-width: 600px;
+    top: 10px;
+    left: calc(50% - 285px);
+    font-size: 12px;
+}
+
+#hidden {
+    position: relative;
+    max-width: 600px;
+    font-size: 24px;
+    top: 16px;
+}
+
+#fileName {
+    position: relative;
+    max-width: 600px;
+    top: 30px;
+    left: calc(50% - 285px);
+    font-size: 20px;
+    font-family: 楷体;
+}
+
+filter ul label {
+    position: relative;
+    left: 20px;
+    top: 100px;
+    font-weight: bold;
+}
+
+filter ul label[for="file0"] {
+    position: relative;
+    left: calc(50% - 62px);
+    width: 100px;
+    text-align: center;
+    top: 50px;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+filter input {
+    margin: 5px;
+}
+
+filter input[type="text"] {
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 楷体;
+    height: 30px;
+    width: calc(100% - 60px);
+}
+
+filter textarea {
+    margin: 5px;
+    height: 120px;
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 楷体;
+    width: calc(100% - 60px);
+    resize: none;
+}
+
+filter select {
+    left: 25px;
+    top: 100px;
+    width: 200px;
+    height: 36px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    background-color: rgb(250, 250, 250);
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    outline: none;
+    position: relative;
+}
+
+filter select:focus {
+    border: none;
+}
+
+filter select option:nth-child(even) {
+    background-color: rgb(240, 250, 250);
+}
+
+filter select option:nth-child(odd) {
+    background-color: rgb(250, 250, 250);
+}
+
+filter input[type="submit"] {
+    left: 20px;
+    top: 100px;
+    height: 36px;
+    width: 100px;
+    background-color: rgb(98, 192, 82);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-color: rgba(71, 141, 64, 1);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    position: relative;
+}

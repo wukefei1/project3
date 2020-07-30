@@ -1,0 +1,50 @@
+filter {
+    position: relative;
+    width: 100%;
+    left: 60px;
+    margin: 20px;
+}
+
+filter ul {
+    margin: 0px;
+    width: calc(100% - 40px);
+    position: relative;
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid none solid;
+    border-width: 1px;
+    height: 20px;
+    background-color: white;
+}
+
+footer {
+    font-family: Verdana;
+    display: inline;
+    position: relative;
+    bottom: 00px;
+    left: 80px;
+}
+
+.friend {
+    height: 150px;
+}
+
+.friend h2{
+    font-size: 48px;
+}
+
+.button {
+    position: absolute;
+    width: 120px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(230, 230, 230, 0.5);
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+}

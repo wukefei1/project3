@@ -1,0 +1,72 @@
+@charset 'utf-8';
+@font-face {
+    font-family: MyNewFont;
+    /*字体名称*/
+    src: url('钢笔字行楷.ttf') format('truetype');
+    /*字体源文件*/
+    src: url('钢笔字行楷.woff') format('woff');
+}
+
+* {
+    font-family: Arial, 楷体;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    color: rgb(0, 119, 255)
+}
+
+a:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+input {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+filter {
+    display: block;
+    max-width: 1360px;
+}

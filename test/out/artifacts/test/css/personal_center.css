@@ -1,0 +1,74 @@
+filter {
+    position: relative;
+    width: 100%;
+    left: 60px;
+    margin: 20px;
+}
+
+filter ul {
+    margin: 0px;
+    width: calc(100% - 40px);
+    position: relative;
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid none solid;
+    border-width: 1px;
+    height: 20px;
+    background-color: white;
+}
+
+footer {
+    font-family: Verdana;
+    display: inline;
+    position: relative;
+    bottom: 00px;
+    left: 80px;
+}
+
+filter input[type="submit"] {
+    height: 36px;
+    width: 100px;
+    background-color: rgb(98, 192, 82);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-color: rgba(71, 141, 64, 1);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+filter input[type="text"] {
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+}
+
+.friend {
+    height: 150px;
+}
+
+.friend h2{
+    font-size: 48px;
+}
+
+.button {
+    position: absolute;
+    width: 80px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(230, 230, 230, 0.5);
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+}

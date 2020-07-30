@@ -1,0 +1,110 @@
+.box {
+    width: 100%;
+}
+
+section {
+    position: absolute;
+    left: calc(50% - 202px);
+    top: 50px;
+}
+
+section img {
+    position: relative;
+    right: -150px;
+}
+
+section div {
+    position: relative;
+    font-size: 40px;
+    right: -32px;
+}
+
+section small {
+    position: relative;
+    font-size: 16px;
+    right: -104px;
+    line-height: 50px;
+}
+
+section label small {
+    font-size: 16px;
+    right: 0px;
+}
+
+form {
+    width: 300px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 20px 40px;
+}
+
+form input {
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    font-family: 楷体;
+}
+
+form input[type="submit"] {
+    background-color: rgb(98, 192, 82);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-color: rgba(71, 141, 64, 1);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+form p {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+footer {
+    font-family: Verdana;
+    text-align: center;
+    position: relative;
+    top: 760px;
+}
+
+/*#tips {*/
+/*    float: left;*/
+/*    font-size: 12px;*/
+/*    width: 400px;*/
+/*    height: 25px;*/
+/*    margin: 4px 0 0 20px;*/
+/*}*/
+
+#tips span {
+    /*float: left;*/
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    overflow: hidden;
+    margin-left: 20px;
+    background: #D7D9DD;
+    line-height: 20px;
+    text-align: center;
+}
+
+#tips .s1 {
+    background: red;
+}
+
+#tips .s2 {
+    background: orange;
+}
+
+#tips .s3 {
+    background: green;
+}

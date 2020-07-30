@@ -1,0 +1,73 @@
+filter {
+    position: relative;
+    width: 100%;
+    left: 60px;
+    margin: 20px;
+}
+
+filter ul {
+    margin: 0px;
+    width: calc(100% - 40px);
+    position: relative;
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid none solid;
+    border-width: 1px;
+    height: fit-content;
+    background-color: white;
+}
+
+/*filter input {*/
+/*    margin: 5px;*/
+/*}*/
+
+filter button {
+    height: 36px;
+    width: 100px;
+    background-color: rgb(98, 192, 82);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-color: rgba(71, 141, 64, 1);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 5px;
+}
+
+filter ul textarea {
+    position: relative;
+    margin: 5px;
+    height: 120px;
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 楷体;
+    width: calc(100% - 60px);
+    resize: none;
+}
+
+footer {
+    font-family: Verdana;
+    display: inline;
+    position: relative;
+    font-size: 16px;
+    left: 80px;
+}
+
+#console {
+    margin: 5px;
+    font-size: 24px;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+#console p{
+    font-size: 20px;
+}

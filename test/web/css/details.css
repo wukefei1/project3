@@ -1,0 +1,117 @@
+filter {
+    position: relative;
+    width: 100%;
+    left: 60px;
+    margin: 20px;
+}
+
+filter ul {
+    margin: 0px;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    border-color: rgba(170, 185, 190, 1);
+    border-style: solid solid none solid;
+    border-width: 1px;
+    height: 20px;
+    background-color: white;
+}
+
+footer {
+    font-family: Verdana;
+    position: relative;
+    bottom: 00px;
+    left: 80px;
+}
+
+.photo {
+    height: 720px;
+}
+
+.photo h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.photo small {
+    position: relative;
+    font-family: Verdana;
+    font-size: 16px;
+    /*left: 32px;*/
+}
+
+.photo div {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+.photo ul {
+    width: calc(100% - 760px);
+    position: relative;
+    left: 640px;
+    top: 60px;
+    text-indent: 16px;
+}
+
+.photo .content {
+    position: absolute;
+    font-size: 20px;
+    line-height: 60px;
+    top: 540px;
+    left: 40px;
+    text-indent: 40px;
+    width: calc(100% - 100px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+#hint {
+    position: absolute;
+    top: 480px;
+    left: 40px;
+    font-size: 20px;
+}
+
+#hidden {
+    position: relative;
+    font-size: 24px;
+    top: 12px;
+}
+
+.like {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: red;
+}
+
+.like a {
+    color: white;
+}
+
+.like a:hover {
+    color: white;
+}
+
+.max {
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    display: none;
+    overflow: hidden;
+    position: relative;
+    margin-left: 540px;
+    z-index: 99;
+}
+
+.max img {
+    position: absolute;
+    margin: 0 auto;
+}
