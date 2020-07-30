@@ -16,72 +16,75 @@
 >用户能够注册账、使用已经注册过的账号登录。在未登录前，用户在网站首页可以通过点击查看图片详情，可以在搜索页搜索展示筛选结果；但是不能收藏任何图片，也不能查看自己的好友列表等。在用户登录后，用户可以通过用户名搜索其他用户并发出添加请求，待该用户同意后两者互为好友。用户可以收藏不同的展品，并决定自己的收藏是否向好友公开。如果向好友公开收藏，好友可以互相通过点击好友列表对应用户名来查看其收藏的图片列表。如果不公开，则不展示。
 
 #### 项目结构
->├─src
->│  ├─DB
->│  │      DBHelper.java
->│  │      Sha256.java
->│  │      VerifyCode.java
->│  │      
->│  ├─Entity
->│  │      City.java
->│  │      Country.java
->│  │      Travelimage.java
->│  │      User.java
->│  │      
->│  ├─net
->│  │  └─coobird
->│  │                      
->│  ├─Servlet
->│  │      addUserServlet.java
->│  │      changeStateServlet.java
->│  │      chatServlet.java
->│  │      deleteFriendServlet.java
->│  │      deletePhotoServlet.java
->│  │      detailServlet.java
->│  │      favourServlet.java
->│  │      friendFavouriteServlet.java
->│  │      homeServlet.java
->│  │      loginServlet.java
->│  │      logoutServlet.java
->│  │      myFavouriteServlet.java
->│  │      myFriendsServlet.java
->│  │      myPhotosServlet.java
->│  │      personalCenterServlet.java
->│  │      refreshServlet.java
->│  │      registerServlet.java
->│  │      responseServlet.java
->│  │      searchServlet.java
->│  │      sendMessageServlet.java
->│  │      uploadJudgeServlet.java
->│  │      uploadServlet.java
->│  │      VerifyCodeServlet.java
->│  │      
->│  ├─Tag
->│  │      NavigatorList.java
->│  │      
->│  └─Tools
->│          DateRandom.java
->│          Delete.java
->│          HTMLFilter.java
->│          
->└─web
->    │  chat.jsp
->    │  details.jsp
->    │  friends_favourite.jsp
->    │  home.jsp
->    │  index.jsp
->    │  login.jsp
->    │  my_favourite.jsp
->    │  my_friends.jsp
->    │  my_photos.jsp
->    │  personal_center.jsp
->    │  register.jsp
->    │  search.jsp
->    │  upload.jsp
->    ├─css
->    ├─img
->    ├─js
->    └─WEB-INF
+
+```
+├─src
+│  ├─DB
+│  │      DBHelper.java
+│  │      Sha256.java
+│  │      VerifyCode.java
+│  │      
+│  ├─Entity
+│  │      City.java
+│  │      Country.java
+│  │      Travelimage.java
+│  │      User.java
+│  │      
+│  ├─net
+│  │  └─coobird
+│  │                      
+│  ├─Servlet
+│  │      addUserServlet.java
+│  │      changeStateServlet.java
+│  │      chatServlet.java
+│  │      deleteFriendServlet.java
+│  │      deletePhotoServlet.java
+│  │      detailServlet.java
+│  │      favourServlet.java
+│  │      friendFavouriteServlet.java
+│  │      homeServlet.java
+│  │      loginServlet.java
+│  │      logoutServlet.java
+│  │      myFavouriteServlet.java
+│  │      myFriendsServlet.java
+│  │      myPhotosServlet.java
+│  │      personalCenterServlet.java
+│  │      refreshServlet.java
+│  │      registerServlet.java
+│  │      responseServlet.java
+│  │      searchServlet.java
+│  │      sendMessageServlet.java
+│  │      uploadJudgeServlet.java
+│  │      uploadServlet.java
+│  │      VerifyCodeServlet.java
+│  │      
+│  ├─Tag
+│  │      NavigatorList.java
+│  │      
+│  └─Tools
+│          DateRandom.java
+│          Delete.java
+│          HTMLFilter.java
+│          
+└─web
+    │  chat.jsp
+    │  details.jsp
+    │  friends_favourite.jsp
+    │  home.jsp
+    │  index.jsp
+    │  login.jsp
+    │  my_favourite.jsp
+    │  my_friends.jsp
+    │  my_photos.jsp
+    │  personal_center.jsp
+    │  register.jsp
+    │  search.jsp
+    │  upload.jsp
+    ├─css
+    ├─img
+    ├─js
+    └─WEB-INF
+```
 
 #### 后端工具
 
@@ -93,14 +96,17 @@
     沿用之前PJ的设计样式、包括js+css。
 
 #### 数据库结构
->geocities：储存城市
->geocountries_regions：储存国家和地区
->message：储存用户之间发送的消息
->recentbrowse：储存最近浏览
->travelfriends：储存好友
->travelimage：储存图片
->travelimagefavor：储存收藏
->traveluser：储存用户
+
+```
+geocities：储存城市
+geocountries_regions：储存国家和地区
+message：储存用户之间发送的消息
+recentbrowse：储存最近浏览
+travelfriends：储存好友
+travelimage：储存图片
+travelimagefavor：储存收藏
+traveluser：储存用户
+```
 
 
 ### 项目完成情况
